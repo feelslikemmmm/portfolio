@@ -50,7 +50,7 @@ const Section = ({ item }) => {
             </span>
           </div>
           <div className={styles.section__content__link}>
-            <a href="#">
+            <a href="https://everymoi.com">
               EXPLORE
               <svg
                 width="45"
@@ -71,7 +71,7 @@ const Section = ({ item }) => {
           </div>
         </div>
         <div className={styles.project__section__graphics}>
-          <a href="https://everymoi.com" target="_blank">
+          <a href="https://everymoi.com">
             <div className={styles.graphics__container}>
               <img src={item.img} alt="moi" />
             </div>
