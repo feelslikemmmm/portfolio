@@ -1,0 +1,32 @@
+let Data = [
+  {
+    title: '모두의 이력서',
+    subtitle: '취준생을 위한 이력서 작성 플랫폼',
+    desc1: 'React, Redux, Redux-saga, Typescript',
+    desc2: '모이는 이력서 작성 폼을 제공합니다',
+    desc3: '미리보기를 지원하고 PDF파일로 다운로드 및 인쇄가 가능합니다',
+    desc4: '지금 바로 체험해보세요',
+    img: '/moi.gif',
+    background: 'rgb(224,217,209)',
+  },
+  {
+    title: 'Find Carrot',
+    subtitle: '벌레를 피해 당근 수확하기',
+    desc1: 'Javascript',
+    desc2: 'Find Carrot 게임은 정해진 시간내에 벌레를 제외 한',
+    desc3: '당근을 수확하는 게임입니다, 벌레를 클릭하게 되면',
+    desc4: '팝업창이 뜨고, 클릭하면 다시 시작됩니다',
+    img: '/findcarrot.gif',
+  },
+  {
+    title: 'Portfolio',
+    subtitle: 'Project Portfolio',
+    desc1: 'React, React-hook',
+    desc2: '프로젝트를 보여주고, gif클릭시 해당 프로젝트 링크로 이동합니다',
+    desc3: 'EXPLORE 클릭시 작성된 프로젝트의 상세 정보를 볼 수 있습니다',
+    img: '/moi.gif',
+    background: '#333333',
+    color: '#ffffff',
+  },
+];
+export default Data;
