@@ -24,7 +24,7 @@ let Data = [
     desc1: 'React, React-hook',
     desc2: '프로젝트를 보여주고, gif클릭시 해당 프로젝트 링크로 이동합니다',
     desc3: 'EXPLORE 클릭시 작성된 프로젝트의 상세 정보를 볼 수 있습니다',
-    img: '/moi.gif',
+    img: '/portfolio-gif.gif',
     background: '#333333',
     color: '#ffffff',
   },
