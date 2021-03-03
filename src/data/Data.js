@@ -28,6 +28,7 @@ let Data = [
     desc4: '팝업창이 뜨고, 클릭하면 다시 시작됩니다',
     img: '/findcarrot.gif',
     background: '#2A3E45',
+    color: '#FFF',
   },
   {
     title: 'Portfolio',
@@ -37,7 +38,7 @@ let Data = [
     desc3: 'EXPLORE 클릭시 작성된 프로젝트의 상세 정보를 볼 수 있습니다',
     img: '/portfolio-gif.gif',
     background: '#333333',
-    color: '#ffffff',
+    color: '#FFF',
   },
 ];
 export default Data;
