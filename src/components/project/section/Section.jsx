@@ -11,7 +11,7 @@ const Section = ({ item }) => {
         <div className={styles.project__section__content}>
           <div className={styles.section__content__header}>
             <span className={styles.section__content__header__span}>
-              <span>PROJECT</span>
+              <span>{item.project}</span>
             </span>
           </div>
           <div className={styles.section__content__title}>
@@ -29,25 +29,28 @@ const Section = ({ item }) => {
           <div className={styles.section__content__desc}>
             <span className={styles.section__content__desc__span}>
               <span>
-                {item.desc1}
-                <br />
+                {item.front} <br />
+                {item.back} {item.back && <br />}
+                {item.deploy} <br />
               </span>
             </span>
             <span className={styles.section__content__desc__span}>
               <span>
-                {item.desc2}
+                Role: {item.role}
                 <br />
               </span>
             </span>
-            <span className={styles.section__content__desc__span}>
+            {/* <span className={styles.section__content__desc__span}>
               <span>
-                {item.desc3}
-                <br />
+                Work Content <br />
+                {item.work} <br />
+                {item.work2} <br />
+                {item.work3} <br />
+                {item.work4} <br />
+                {item.work5} <br />
+                {item.work6} <br />
               </span>
-            </span>
-            <span className={styles.section__content__desc__span}>
-              <span>{item.desc4}</span>
-            </span>
+            </span> */}
           </div>
           <div className={styles.section__content__link}>
             <a href="https://everymoi.com">
