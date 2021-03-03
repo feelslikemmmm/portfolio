@@ -10,6 +10,16 @@ let Data = [
     background: 'rgb(224,217,209)',
   },
   {
+    title: 'Airmug Pro',
+    subtitle: 'Apple과 같은 인터랙션을 활용한 Web Site',
+    desc1: 'React, Redux, Redux-saga, Typescript',
+    desc2: '애플 인터랙션',
+    desc3: 'Air mug Pro',
+    desc4: '지금 바로 체험해보세요',
+    img: '/airmug-pro.gif',
+    background: 'rgb(224,217,209)',
+  },
+  {
     title: 'Find Carrot',
     subtitle: '벌레를 피해 당근 수확하기',
     desc1: 'Javascript',
