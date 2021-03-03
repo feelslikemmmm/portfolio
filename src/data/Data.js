@@ -14,10 +14,10 @@ let Data = [
     subtitle: 'Apple과 같은 인터랙션을 활용한 Web Site',
     desc1: 'React, Redux, Redux-saga, Typescript',
     desc2: '애플 인터랙션',
-    desc3: 'Air mug Pro',
+    desc3: 'Air-mug Pro',
     desc4: '지금 바로 체험해보세요',
     img: '/airmug-pro.gif',
-    background: 'rgb(224,217,209)',
+    backgorund: '#FFF',
   },
   {
     title: 'Find Carrot',
@@ -27,6 +27,7 @@ let Data = [
     desc3: '당근을 수확하는 게임입니다, 벌레를 클릭하게 되면',
     desc4: '팝업창이 뜨고, 클릭하면 다시 시작됩니다',
     img: '/findcarrot.gif',
+    background: '#2A3E45',
   },
   {
     title: 'Portfolio',
