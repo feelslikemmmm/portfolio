@@ -1,0 +1,132 @@
+.global_nav {
+  height: 150px;
+  background: rgb(238, 238, 238);
+}
+
+.global_nav_links {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.global_nav_links a {
+  transition: all 300ms ease-in-out;
+}
+.global_nav_links a:not(.product_name) {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-left: 2em;
+}
+
+.global_nav_links a:hover {
+  transform: scale(1.1);
+}
+
+.global_nav_links a span {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.product_name {
+  margin-right: auto;
+  font-size: 1.2rem;
+  font-weight: 200;
+  border-bottom: 1px solid gray;
+}
+
+.blinking {
+  font-size: 1.5em;
+  -webkit-animation: blink 1.5s ease-in-out infinite alternate;
+  -moz-animation: blink 1.5s ease-in-out infinite alternate;
+  animation: blink 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* -- Nav Clear -- */
+
+/* Section Start */
+.main_section {
+  background: rgb(238, 238, 238);
+  height: 100%;
+  padding-top: 3%;
+}
+
+.main_section_container {
+  position: relative;
+  height: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.main_section_title {
+  font-size: 6em;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.main_section_title span {
+  border-bottom: 3px solid black;
+}
+
+.main_section_body {
+  padding-top: 10%;
+  padding-bottom: 12%;
+  font-size: 1.8em;
+  line-height: 1.4;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 600px;
+  left: 950px;
+  width: 350px;
+  height: 350px;
+  background: rgb(14, 39, 179);
+  border-radius: 50%;
+  border: solid 0.2rem #0d28b3;
+  font-size: 2rem;
+  color: white;
+  transition: 500ms all;
+}
+
+.circle:hover {
+  transform: rotate(18deg) scale(1.1);
+}
