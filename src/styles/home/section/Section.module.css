@@ -416,8 +416,12 @@
     z-index: 999;
   }
 
-  .link,
-  .blinking,
+  .global__nav__links .links {
+    display: none;
+  }
+  .blinking {
+    display: none;
+  }
   .profile {
     display: none;
   }
