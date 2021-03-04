@@ -59,6 +59,10 @@
 .global__nav__links a {
   transition: all 300ms ease-in-out;
 }
+
+.global__nav__links a:hover {
+  transform: scale(1.08);
+}
 .global__nav__links a:not(.product__name) {
   font-size: 1.3em;
   font-weight: 800;
@@ -77,12 +81,20 @@
   -webkit-animation: blink 1.5s ease-in-out infinite alternate;
   -moz-animation: blink 1.5s ease-in-out infinite alternate;
   animation: blink 1.5s ease-in-out infinite alternate;
+
 }
 
 .profile {
   font-weight: 800;
   font-size: 22px;
+  transition: 300ms;
 }
+
+.profile:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+}
+
 
 @-webkit-keyframes blink {
   0% {
@@ -403,6 +415,31 @@
     color: #fa402d;
     z-index: 999;
   }
+
+  .link,
+  .blinking,
+  .profile {
+    display: none;
+  }
+
+  .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    width: 150px;
+    height: 150px;
+    background: rgb(14, 39, 179);
+    border-radius: 50%;
+    border: solid 0.2rem #0d28b3;
+    font-size: 1.2rem;
+    color: white;
+    transition: 500ms all;
+    z-index: 1;
+  }
+  
 
   .home__section__content {
     display: flex;

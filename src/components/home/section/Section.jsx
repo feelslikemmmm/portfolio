@@ -1,7 +1,16 @@
 import React from 'react';
 import styles from '../../../styles/home/section/Section.module.css';
 import Fade from 'react-reveal/Fade';
+import { useHistory } from 'react-router-dom';
 const Section = (props) => {
+  let history = useHistory();
+
+  const clickHandler = () => {
+    history.push({
+      pathname: '/profile'
+    })
+  }
+
   return (
     <div className={styles.home__section__container}>
       <Fade bottom cascade>
@@ -18,7 +27,7 @@ const Section = (props) => {
             Feelslikemmmm@gmail.com
           </a>
           <span className={styles.blinking}>•&nbsp;</span>
-          <span className={styles.profile}>Profile ㅡ</span>
+          <span className={styles.profile} onClick={clickHandler}>Profile ㅡ</span>
           <a
             href="https://github.com/feelslikemmmm"
             target="blank"

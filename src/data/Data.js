@@ -14,6 +14,7 @@ let Data = [
     work5: 'HTTPS 배포를 위한 AWS Certification 인증서 발급 및 CloudFront 설정',
     work6: '도메인 발급 후 AWS Route53 를 이용한 도메인 연결',
     img: '/moi.gif',
+    src: 'https://everymoi.com/',
     background: 'rgb(224,217,209)',
   },
   {
@@ -25,6 +26,7 @@ let Data = [
     role: 'Front-end',
     work: '인터랙션 웹 사이트 제작',
     img: '/airmug-pro.gif',
+    src: 'https://airmug-pro.netlify.app/',
     backgorund: '#FFF',
   },
   {
@@ -36,6 +38,7 @@ let Data = [
     role: 'Front-end',
     work: '벌레를 피해 당근 수확하는 게임 제작',
     img: '/findcarrot.gif',
+    src: 'https://find-carrot.netlify.app',
     background: '#2A3E45',
     color: '#FFF',
   },
@@ -48,6 +51,7 @@ let Data = [
     role: 'Front-end',
     work: 'Portfolio web site 제작',
     img: '/portfolio-gif.gif',
+    src: 'https://jeonnakwon-portfolio.netlify.app/',
     background: '#333333',
     color: '#FFF',
   },

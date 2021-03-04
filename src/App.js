@@ -1,11 +1,12 @@
 import './App.css';
 import Home from './components/home/Home';
-import Project from './components/project/Project';
+import { Route } from 'react-router-dom';
+import Profile from './components/profile/Profile';
 function App() {
   return (
     <div className="App">
-      <Home />
-      <Project />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/profile" component={Profile} />
     </div>
   );
 }
