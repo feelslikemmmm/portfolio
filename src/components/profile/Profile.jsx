@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styles from '../../styles/profile/Profile.module.css'
 const Profile = (props) => {
   return (
@@ -13,10 +13,10 @@ const Profile = (props) => {
             <span className={styles.blinking}>• </span>
             <span>Profile ㅡ</span>
           </Link>
-          <a href="https://github.com/feelslikemmmm" target="blank">
+          <a href="https://github.com/feelslikemmmm" target="blank" rel="noopener noreferrer">
             Github
         </a>
-          <a href="https://velog.io/@feelslikemmmm" target="blank">
+          <a href="https://velog.io/@feelslikemmmm" target="blank" rel="noopener noreferrer">
             Blog
         </a>
         </div>

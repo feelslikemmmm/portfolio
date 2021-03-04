@@ -74,7 +74,7 @@ const Section = ({ item }) => {
           </div>
         </div>
         <div className={styles.project__section__graphics}>
-          <a href={item.src} target="_blank">
+          <a href={item.src} target="blank" rel="noopener noreferrer">
             <div className={styles.graphics__container}>
               <img src={item.img} alt="moi" />
             </div>
