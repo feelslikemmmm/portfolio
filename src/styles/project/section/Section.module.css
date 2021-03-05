@@ -64,7 +64,7 @@
 }
 
 .section__content__container a {
-  color: #aaa;
+  color: black;
 }
 
 .section__content__github,
@@ -79,12 +79,12 @@
   background-color: transparent;
   font-size: 18px;
   font-weight: 800;
-  color: #aaa;
+  color: black;
 }
 
 .section__content__link svg {
   margin-left: 20px;
-  color: #aaa;
+  color: black;
 }
 .project__section__graphics {
   padding-top: 20px;

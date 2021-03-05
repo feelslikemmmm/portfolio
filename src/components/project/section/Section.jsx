@@ -62,7 +62,7 @@ const Section = ({ item }) => {
             <div className={styles.section__content__link}>
               <button onClick={() => { clickHandler(item.id) }}>
                 EXPLORE
-              <svg
+              {/* <svg
                   width="45"
                   height="11"
                   viewBox="0 0 45 11"
@@ -76,7 +76,7 @@ const Section = ({ item }) => {
                     strokeLinecap="round"
                     strokeLinejoin="round"
                   ></path>
-                </svg>
+                </svg> */}
               </button>
             </div>
           </div>

@@ -23,9 +23,9 @@ const Profile = (props) => {
       </nav>
       <section className={styles.main_section}>
         <div className={styles.main_section_container}>
-          <a href="mailto:feelslikemmmm@gmail.com" className={styles.circle}>
+          {/* <a href="mailto:feelslikemmmm@gmail.com" className={styles.circle}>
             Contect Resn
-        </a>
+        </a> */}
           <h1 className={styles.main_section_title}>
             <span className={styles.main_section_name}>안녕하세요</span> — 전낙원 입니다
           <br />
