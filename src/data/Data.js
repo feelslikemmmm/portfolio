@@ -1,5 +1,6 @@
 let Data = [
   {
+    id: 1,
     project: 'Team Project',
     title: '모두의 이력서',
     subtitle: '취준생을 위한 이력서 작성 플랫폼',
@@ -15,9 +16,11 @@ let Data = [
     work6: '도메인 발급 후 AWS Route53 를 이용한 도메인 연결',
     img: '/moi.gif',
     src: 'https://everymoi.com/',
+    git: 'https://github.com/Everyone-s-resume/Moi_client',
     background: 'rgb(224,217,209)',
   },
   {
+    id: 2,
     project: 'Toy Project',
     title: 'Airmug Pro',
     subtitle: 'Apple과 같은 인터랙션을 활용한 Web Site',
@@ -27,9 +30,11 @@ let Data = [
     work: '인터랙션 웹 사이트 제작',
     img: '/airmug-pro.gif',
     src: 'https://airmug-pro.netlify.app/',
+    git: 'https://github.com/feelslikemmmm/Apple-InteractiveWebProject',
     backgorund: '#FFF',
   },
   {
+    id: 3,
     project: 'Toy Project',
     title: 'Find Carrot',
     subtitle: '벌레를 피해 당근 수확하기',
@@ -39,10 +44,12 @@ let Data = [
     work: '벌레를 피해 당근 수확하는 게임 제작',
     img: '/findcarrot.gif',
     src: 'https://find-carrot.netlify.app',
+    git: 'https://github.com/feelslikemmmm/fun_game',
     background: '#2A3E45',
     color: '#FFF',
   },
   {
+    id: 4,
     project: 'Toy Project',
     title: 'Portfolio',
     subtitle: 'Project Portfolio',
@@ -52,6 +59,7 @@ let Data = [
     work: 'Portfolio web site 제작',
     img: '/portfolio-gif.gif',
     src: 'https://jeonnakwon-portfolio.netlify.app/',
+    git: 'https://github.com/feelslikemmmm/portfolio',
     background: '#333333',
     color: '#FFF',
   },

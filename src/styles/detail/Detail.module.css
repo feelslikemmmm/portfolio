@@ -1,0 +1,8 @@
+.background {
+  background-color: #eee;
+}
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+  height: 100vh;
+}

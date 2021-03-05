@@ -2,7 +2,7 @@ import React from 'react';
 import styles from '../../../styles/home/section/Section.module.css';
 import Fade from 'react-reveal/Fade';
 import { useHistory } from 'react-router-dom';
-const Section = (props) => {
+const Section = () => {
   let history = useHistory();
 
   const clickHandler = () => {
@@ -31,6 +31,7 @@ const Section = (props) => {
           <a
             href="https://github.com/feelslikemmmm"
             target="blank"
+            rel="noopener noreferrer"
             className={styles.links}
           >
             Github
@@ -38,6 +39,7 @@ const Section = (props) => {
           <a
             href="https://velog.io/@feelslikemmmm"
             target="blank"
+            rel="noopener noreferrer"
             className={styles.links}
           >
             Blog

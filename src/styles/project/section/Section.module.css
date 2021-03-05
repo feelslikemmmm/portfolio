@@ -55,13 +55,30 @@
   margin-bottom: 60px;
 }
 
-.section__content__link {
-  text-align: start;
+.section__content__container {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
   font-size: 18px;
-  font-weight: 600;
 }
 
-.section__content__link a {
+.section__content__container a {
+  color: #aaa;
+}
+
+.section__content__github,
+.section__content__website,
+.section__content__link button{
+  cursor: pointer;
+}
+
+.section__content__link button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 800;
   color: #aaa;
 }
 
