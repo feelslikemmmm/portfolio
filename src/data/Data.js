@@ -16,7 +16,7 @@ let Data = [
     work6: '도메인 발급 후 AWS Route53 를 이용한 도메인 연결',
     img: '/moi.gif',
     src: 'https://everymoi.com/',
-    git: 'https://github.com/Everyone-s-resume/Moi_client',
+    git: 'https://github.com/codestates/Moi_Client',
     background: 'rgb(224,217,209)',
     fontColor: 'black',
   },
