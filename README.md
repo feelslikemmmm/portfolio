@@ -1,8 +1,8 @@
 # Portfolio
 
-Front-end : React
-Deploy : Netlify
-Role: Front-end
+### Front-end : React
+### Deploy : Netlify
+### Role: Front-end
 
 프로젝트를 모아서 소개하는 웹 포트폴리오 프로젝트 입니다
 
