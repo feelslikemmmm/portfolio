@@ -15,6 +15,9 @@ const Section = ({ item }) => {
         <span>{item.desc}</span><br />
         <span>{item.desc2}</span><br />
         <span>{item.desc3}</span><br />
+        <span>{item.desc4}</span><br />
+        <span>{item.desc5}</span><br />
+        <span>{item.desc6}</span><br />
       </div>
       <div className={styles.project__container}>
         <div className={styles.project__item}>
@@ -27,6 +30,8 @@ const Section = ({ item }) => {
             <span>{item.assignment[2]}</span>
             <span>{item.assignment[3]}</span>
             <span>{item.assignment[4]}</span>
+            <span>{item.assignment[5]}</span>
+            <span>{item.assignment[6]}</span>
           </div>
         </div>
         <div className={styles.project__item}>

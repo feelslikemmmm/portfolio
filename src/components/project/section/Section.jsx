@@ -50,17 +50,17 @@ const Section = ({ item }) => {
           </div>
           <div className={styles.section__content__container}>
             <div className={styles.section__content__github}>
-              <a href={item.git} target="blank" rel="noopener noreferrer">
+              <a href={item.git} target="blank" rel="noopener noreferrer" style={{ color: item.fontColor }}>
                 GITHUB
               </a>
             </div>
             <div className={styles.section__content__website}>
-              <a href={item.src} target="blank" rel="noopener noreferrer">
+              <a href={item.src} target="blank" rel="noopener noreferrer" style={{ color: item.fontColor }}>
                 WEB SITE
               </a>
             </div>
             <div className={styles.section__content__link}>
-              <button onClick={() => { clickHandler(item.id) }}>
+              <button onClick={() => { clickHandler(item.id) }} style={{ color: item.fontColor }}>
                 EXPLORE
               {/* <svg
                   width="45"

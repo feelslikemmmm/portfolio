@@ -18,6 +18,7 @@ let Data = [
     src: 'https://everymoi.com/',
     git: 'https://github.com/Everyone-s-resume/Moi_client',
     background: 'rgb(224,217,209)',
+    fontColor: 'black',
   },
   {
     id: 2,
@@ -32,6 +33,7 @@ let Data = [
     src: 'https://airmug-pro.netlify.app/',
     git: 'https://github.com/feelslikemmmm/Apple-InteractiveWebProject',
     backgorund: '#FFF',
+    fontColor: 'black',
   },
   {
     id: 3,
@@ -47,6 +49,7 @@ let Data = [
     git: 'https://github.com/feelslikemmmm/fun_game',
     background: '#2A3E45',
     color: '#FFF',
+    fontColor: '#fff',
   },
   {
     id: 4,
@@ -62,6 +65,7 @@ let Data = [
     git: 'https://github.com/feelslikemmmm/portfolio',
     background: '#333333',
     color: '#FFF',
+    fontColor: '#FFF',
   },
 ];
 export default Data;
