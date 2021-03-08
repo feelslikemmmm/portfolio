@@ -1,8 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from '../../../styles/detail/section/Section.module.css';
 const Section = ({ item }) => {
   return (
     <div className={styles.section__container}>
+      <div className={styles.backBtn}>
+        <Link to="/" className={styles.product_name}>
+          ←
+        </Link>
+      </div>
       <h1 className={styles.title__container}>
         <span>{item.title}</span>
       </h1>
