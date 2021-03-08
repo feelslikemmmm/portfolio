@@ -59,3 +59,40 @@
   font-size: 18px;
   line-height: 1.4;
 }
+
+@media (max-width:568px) {
+  .title__container {
+    font-size: 45px;
+  }
+
+  .subtitle__container {
+    margin-bottom: 50px;
+  }
+
+  .desc__container {
+    margin-bottom: 50px;
+  }
+  .desc__container span {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .project__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .project__item {
+    margin-bottom: 20px;
+  }
+
+  .project__item__title {
+    font-size: 18px;
+  }
+
+  .project__item__desc {
+    font-size: 16px;
+  }
+  
+}

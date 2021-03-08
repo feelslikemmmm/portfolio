@@ -222,6 +222,14 @@
     padding-top: 30px;
   }
 
+  .section__content__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    font-size: 18px;
+  }
+
   .section__content__header {
     display: none;
     text-align: start;
@@ -343,7 +351,7 @@
     line-height: 1.6;
     font-size: 14px;
     line-height: 24px;
-    font-weight: 500;
+    font-weight: bold;
     margin-bottom: 20px;
   }
 

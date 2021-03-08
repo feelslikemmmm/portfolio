@@ -54,6 +54,7 @@
   align-items: center;
   height: 100%;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .global__nav__links a {
@@ -415,7 +416,12 @@
     color: #fa402d;
     z-index: 999;
   }
-
+  .global__nav {
+    height: 150px;
+    width: 300px;
+    background: rgb(238, 238, 238);
+    padding-bottom: 100px;
+  }
   .global__nav__links .links {
     display: none;
   }
