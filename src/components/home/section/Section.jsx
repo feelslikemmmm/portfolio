@@ -53,14 +53,6 @@ const Section = () => {
       <div className={styles.home__section__content}>
         <Fade bottom cascade>
           <div className={styles.home__section__content__left}>
-            {/* <a
-              className={styles.content__left__email__container}
-              href="mailto:feelslikemmmm@gmail.com"
-            >
-              <span className={styles.left__email__span}>
-                <span>feelslikemmmm@gmail.com</span>
-              </span>
-            </a> */}
             <div className={styles.left__profile__container}>
               <span className={styles.left__profile__span}>
                 <span>/Front end Developer</span>
@@ -76,42 +68,7 @@ const Section = () => {
             </div>
           </div>
         </Fade>
-        {/* <div className={styles.home__section__content__right}>
-          <div className={styles.right__about__text}>
-            Front end Web 개발을 하고있습니다
-            <br />
-            사용자 중심의 UI / UX 를 중요하게 생각해요
-            <br />
-          </div>
-          <div className={styles.right__social__link}>
-            <a className={styles.social__link} href="#">
-              Profile
-            </a>
-            <a
-              className={styles.social__link}
-              href="https://github.com/feelslikemmmm"
-              target="_blank"
-            >
-              Github
-            </a>
-            <a
-              className={styles.social__link}
-              href="https://velog.io/@feelslikemmmm"
-              target="_blank"
-            >
-              Blog
-            </a>
-            <a
-              className={styles.social__link}
-              href="https://www.instagram.com/feelslikemmmm/"
-              target="_blank"
-            >
-              Instagram
-            </a>
-          </div>
-        </div> */}
       </div>
-      {/* <div className={styles.home__section__underline}></div> */}
     </div>
   );
 };

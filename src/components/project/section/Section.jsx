@@ -62,21 +62,6 @@ const Section = ({ item }) => {
             <div className={styles.section__content__link}>
               <button onClick={() => { clickHandler(item.id) }} style={{ color: item.fontColor }}>
                 EXPLORE
-              {/* <svg
-                  width="45"
-                  height="11"
-                  viewBox="0 0 45 11"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M39.6364 9.98889L44 5.98889M44 5.98889L39.6364 1.98889M44 5.98889H1"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  ></path>
-                </svg> */}
               </button>
             </div>
           </div>
