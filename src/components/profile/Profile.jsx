@@ -28,17 +28,35 @@ const Profile = (props) => {
           <br />
           Hello, I am a Front-end Developer
         </h1>
-          <div className={styles.main_section_body}>
-            <p>주 사용 언어는 Javascript이며  React 프레임워크를 이용해서 개발하고 있습니다</p>
-            <br />
-            <ul>
-              <li>저는 팀원들과의 호흡을 중요하게 생각합니다</li>
-              <li>팀 프로젝트를 진행해보면서 개발자에게 소통이란 무엇인지 알게되었습니다</li>
-              <li>자신 개인이 원하는 방향보다는 팀이 한곳을 바라보고 같은 방향으로 가는것이 중요하다고 생각합니다</li>
-              <li>사용자 중심의 UI / UX 에 관심이 많습니다 편리하고 빠르고 또 이상적인 경험을 주고 싶습니다</li>
-              <li>사용자의 정황과 목표를 공감해서 개성을 만드는 개발자로서 성장하고 싶습니다</li>
-              <li>2번의 팀 프로젝트를 경험하였고, 현재는 개인 프로젝트를 진행하고 있습니다</li>
-            </ul>
+          <div className={styles.main_section_content_container}>
+            <div className={styles.main_section_content_item}>
+              <h3 className={styles.content_item_title}>Introduce</h3>
+              <div className={styles.content_item_desc}>
+                <span>
+                  저는 HTML, CSS, Javascript, React등을 이용한 Front-end 개발을 주로 배웠고 개발하고 있습니다
+                </span><br />
+                <span>
+                  새로운 기술과 최신 기술 스택에 대해서 배우는것에 많은 흥미를 느끼고 그것을 즐기고 있습니다
+                </span><br />
+                <span>어려운 문제를 직면했을때 어떻게 하면 효율적으로 해결할 수 있을지 검색과 질문을 통해 극복해나가고 있습니다
+                </span><br />
+                <span>개발자로서 제 자신의 역량과 성장을 위해서 과감하게 투자하며 멈추지 않는 성장을 추구합니다
+                </span><br />
+                <span>사람들과 소통하는것을 좋아하며 그것이 개발에도 굉장히 중요한 요소라고 생각합니다
+                </span><br />
+                <span>팀 프로젝트를 진행할 때에도 팀원들과 의견을 조율하고 세세하게 기획하고 방향성을 설정했습니다
+                </span><br />
+                <span>꾸준함을 잃지말자 라는 모토로 계속 발전해 나가고 있는 개발자 입니다.</span><br />
+              </div>
+            </div>
+            <div className={styles.main_section_content_item}>
+              <h3 className={styles.content_item_title}>Stack</h3>
+              <div className={styles.content_item_desc}>
+                <span>프로그래밍 언어 : Javascript, Typescript, HTML, CSS</span><br />
+                <span>프레임워크 & 라이브러리 : React, Redux, Redux-Saga</span><br />
+                <span>Others : Git, AWS(S3, CloudFront, Route53), Postman, Slack, Notion</span><br />
+              </div>
+            </div>
           </div>
         </div>
       </section>

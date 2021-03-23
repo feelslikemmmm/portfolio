@@ -122,6 +122,29 @@
   font-size: 1.5rem;
 }
 
+.main_section_content_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.main_section_content_item {
+  display: flex;
+  flex-direction: column;
+}
+
+.content_item_title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.content_item_desc {
+  padding: 0 10px;
+  line-height: 2.0;
+  font-size: 16px;
+}
+
 @media (max-width: 1024px) {
   .global_nav {
     width: 100%;
