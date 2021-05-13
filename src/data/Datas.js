@@ -1,6 +1,19 @@
 let Datas = [
   {
     id: 1,
+    title: 'Card makers',
+    subtitle: '개인 명함 제작 웹 어플리케이션',
+    desc: 'Card makers는 개인 명함 제작 토이 프로젝트 입니다',
+    desc2: 'React-router를 이용해 사용자가 로그인할 수 있는 페이지와',
+    desc3: '로그인 한 사용자가 명함을 만들 수 있는 메인페이지 두가지로 나누어 제작했습니다',
+    itemTitle: ['Assignment', 'Objective', 'Project Includes', 'Year'],
+    assignment: ['React-router를 이용한 페이지 분기 처리', 'Firebase를 이용한 인증 로그인', 'Firebase RealtimeDatabase를 통한 실시간 데이터 서버에 저장', 'Cloudnaly를 통한 사용자 이미지 서버에 저장', '관련 Section에 대한 UI / UX 관리', 'Netlify를 이용한 배포'],
+    objective: ['소셜 로그인을 통한 간편한 로그인', '로그아웃을 해도 제작해둔 명함은 유지됩니다', '명함 수정시 프리뷰에 수정 내용 실시간 적용'],
+    includes: ['UI Design', 'Full stack', 'Deploy'],
+    year: ['2021 05'],
+  },
+  {
+    id: 2,
     title: '모두의 이력서',
     subtitle: '취준생을 위한 이력서 작성 플랫폼',
     desc: '4인이 팀을 이루어 제작한 프로젝트 입니다',
@@ -16,7 +29,7 @@ let Datas = [
     year: ['2021'],
   },
   {
-    id: 2,
+    id: 3,
     title: 'Airmug Pro',
     subtitle: 'Apple interaction project',
     desc: 'Airmug Pro는 애플 웹사이트에 적용된 인터랙션들을 공부하면서 만든 클론 토이 프로젝트입니다',
@@ -29,7 +42,7 @@ let Datas = [
     year: ['2020', '2021'],
   },
   {
-    id: 3,
+    id: 4,
     title: 'Portfolio Project',
     subtitle: 'Front-end Portfolio',
     desc: '프로젝트를 모아서 소개하는 웹 포트폴리오 프로젝트 입니다',
@@ -40,7 +53,7 @@ let Datas = [
     year: ['2021'],
   },
   {
-    id: 4,
+    id: 5,
     title: 'Find Carrot',
     subtitle: '벌레를 피해 당근 찾아내기',
     desc: 'Find Carrot은 Javascript로 제작한 토이 프로젝트 입니다',

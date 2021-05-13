@@ -62,7 +62,7 @@ const Section = () => {
               <span className={styles.left__profile__span}>
                 <span>
                   /Web Portfolio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  &nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;
                 </span>
               </span>
             </div>
