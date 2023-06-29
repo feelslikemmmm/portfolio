@@ -49,8 +49,8 @@ export const PROJECT_LIST = [
     skills: ['React', 'Tailwindcss', 'Css Animation'],
     deploy: 'Github-Pages',
     role: 'Front-end',
-    webSite: 'https://feelslikemmmm.github.io/portfolio-site/',
-    github: 'https://github.com/feelslikemmmm/portfolio-site',
+    webSite: 'https://feelslikemmmm.github.io/portfolio/',
+    github: 'https://github.com/feelslikemmmm/portfolio',
     detail: {
       title: '그동안의 경험을 담아 소개하는 웹 포트폴리오 프로젝트',
       description: `웹 포트폴리오 프로젝트는 저의 경험을 담은 
