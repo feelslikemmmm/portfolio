@@ -5,13 +5,16 @@ import App from './App';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from '@pages/Home';
 
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <App />,
-    children: [{ index: true, path: '/', element: <Home /> }],
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <App />,
+      children: [{ index: true, path: '/', element: <Home /> }],
+    },
+  ],
+  { basename: process.env.PUBLIC_URL }
+);
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
