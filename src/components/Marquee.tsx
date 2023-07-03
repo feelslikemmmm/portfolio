@@ -4,11 +4,11 @@ const Marquee = () => {
       <div className="py-[16px] border-t solid border-black">
         <div className="flex text-[6vh] animate-text1 pr-[1.4881vw]">
           <h2 className="flex">
-            <p className="font-playfair border solid border-black2 rounded-[30em] px-[0.2em] -pb[1px]">
+            <p className="font-playfair border solid border-black2 rounded-[30em] px-[0.2em] -pb[1px] transition-all ease-in-out duration-[200ms] hover:text-white hover:bg-black">
               @Feelslikemmmm
             </p>
             &nbsp;made for Portfolio, by &nbsp;
-            <p className="font-playfair border solid border-black2 rounded-[30em] px-[0.2em] -pb[1px]">
+            <p className="font-playfair border solid border-black2 rounded-[30em] px-[0.2em] -pb[1px] transition-all ease-in-out duration-[200ms] hover:text-white hover:bg-black">
               @Feelslikemmmm
             </p>
             &nbsp;—
@@ -29,15 +29,15 @@ const Marquee = () => {
       <div className="py-[16px] border-y solid border-black">
         <div className="text-[6vh] animate-text3 pr-[1.4881vw]">
           <h2 className="flex">
-            <p className="font-playfair border solid border-black2 rounded-[30em] px-[0.2em] -pb[1px]">
+            <p className="font-playfair border solid border-black2 rounded-[30em] px-[0.2em] -pb[1px] transition-all ease-in-out duration-[200ms] hover:text-white hover:bg-black">
               Posting At Github
             </p>
             &nbsp;by one commit a day.&nbsp;
-            <p className="font-playfair border solid border-black2 rounded-[30em] px-[0.2em] -pb[1px]">
+            <p className="font-playfair border solid border-black2 rounded-[30em] px-[0.2em] -pb[1px] transition-all ease-in-out duration-[200ms] hover:text-white hover:bg-black">
               Posting At Github
             </p>
             &nbsp;by one commit a day.&nbsp;
-            <p className="font-playfair border solid border-black2 rounded-[30em] px-[0.2em] -pb[1px]">
+            <p className="font-playfair border solid border-black2 rounded-[30em] px-[0.2em] -pb[1px] transition-all ease-in-out duration-[200ms] hover:text-white hover:bg-black">
               Posting At Github
             </p>
             &nbsp;by one commit a day.&nbsp;

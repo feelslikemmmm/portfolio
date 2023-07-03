@@ -12,7 +12,7 @@ const Project = () => {
             <em>
               {'made by '}
               <a
-                className="pb-[1px] px-[0.2em] cursor-pointer border solid border-black rounded-[30em] transition-all ease-in-out duration-[200ms] hover:bg-[#472A18] hover:text-[#fff]"
+                className="pb-[1px] px-[0.2em] cursor-pointer border solid border-black rounded-[30em] transition-all ease-in-out duration-[200ms] hover:bg-black hover:text-[#fff]"
                 href="https://github.com/feelslikemmmm"
                 target="_blank"
                 rel="noopener noreferrer"

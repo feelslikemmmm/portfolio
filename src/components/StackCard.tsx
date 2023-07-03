@@ -68,7 +68,7 @@ const StackCard = () => {
             </div>
             <div className="mb-[10px]">
               <div className="inline-block">
-                <span className="py-[0.1em] px-[0.4em] font-[500] border solid border-black2 text-black rounded-[30em] transition-all ease-in-out duration-[200ms] hover:bg-[#472A18] hover:text-[#fff]">
+                <span className="py-[0.1em] px-[0.4em] font-[500] border solid border-black2 text-black rounded-[30em] transition-all ease-in-out duration-[200ms] hover:bg-black hover:text-[#fff]">
                   {stack.mark}
                 </span>
               </div>

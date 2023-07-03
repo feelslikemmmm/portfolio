@@ -13,11 +13,11 @@ const Stack = () => {
           </div>
           <div className="pt-[10px] font-[500]">
             <div className="flex items-center text-sm md:text-lg">
-              <p className="py-[5px] px-[20px] border solid border-black rounded-[300px] transition-all ease-in-out duration-[200ms] hover:bg-[#472A18] hover:text-[#fff]">
+              <p className="py-[5px] px-[20px] border solid border-black rounded-[300px] transition-all ease-in-out duration-[200ms] hover:bg-black hover:text-[#fff]">
                 Stack
               </p>
               <p className="px-[5px]">and</p>
-              <p className="py-[5px] px-[20px] border solid border-black rounded-[300px] transition-all ease-in-out duration-[200ms] hover:bg-[#472A18] hover:text-[#fff]">
+              <p className="py-[5px] px-[20px] border solid border-black rounded-[300px] transition-all ease-in-out duration-[200ms] hover:bg-black hover:text-[#fff]">
                 FrameWork & Library
               </p>
             </div>

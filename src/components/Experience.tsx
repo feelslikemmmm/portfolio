@@ -12,7 +12,7 @@ const Experience = () => {
               <br />
               <em>
                 {'as a '}
-                <span className="pb-[1px] px-[0.2em] border solid border-black rounded-[30em] transition-all ease-in-out duration-[200ms] hover:bg-[#472A18] hover:text-[#fff]">
+                <span className="pb-[1px] px-[0.2em] border solid border-black rounded-[30em] transition-all ease-in-out duration-[200ms]  hover:bg-black hover:text-[#fff]">
                   front-end developer
                 </span>
                 {' 👀.'}

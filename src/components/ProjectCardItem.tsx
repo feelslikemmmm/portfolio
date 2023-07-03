@@ -24,7 +24,7 @@ const ProjectCardItem = ({ project }: ProjectCardItemProps) => {
   return (
     <>
       <div className="mt-[20px] md:mt-[40px] flex flex-wrap items-center justify-between">
-        <h1 className="align-left mb-[20px] text-[8vh] md:text-[10vh] tracking-[-0.04em] leading-[80%] text-black2">
+        <h1 className="font-playfair align-left mb-[20px] text-[8vh] md:text-[10vh] tracking-[-0.04em] leading-[80%] text-black2">
           {project.title}
         </h1>
         <div className="font-[500] mb-[10px]">
