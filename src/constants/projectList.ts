@@ -3,6 +3,7 @@ import PortFolio from '@assets/images/project/portfolio.gif';
 import AirMugPro from '@assets/images/project/airmug-pro.gif';
 import CardMakers from '@assets/images/project/card-makers.gif';
 import FindCarrot from '@assets/images/project/findcarrot.gif';
+import NotePad from '@assets/images/project/notepad.gif';
 export const PROJECT_LIST = [
   {
     id: 1,
@@ -69,6 +70,29 @@ export const PROJECT_LIST = [
   },
   {
     id: 3,
+    title: 'Notepad',
+    description:
+      '이미지와, 동영상, 노트, 투두리스트 등을 작성할 수 있는 웹어플리케이션 프로젝트 입니다.',
+    skills: ['Typescript', 'DragAndDrop', 'OOP'],
+    deploy: 'Github-Pages',
+    role: 'Front-end',
+    webSite: 'https://feelslikemmmm.github.io/Notepad/',
+    github: 'https://github.com/feelslikemmmm/Notepad',
+    detail: {
+      title: '메모 웹어플리케이션',
+      description: `기존의 간단한 투두리스트에 이미지와 동영상 등록을 추가한 웹 어플리케이션입니다
+타입스크립트와 객체지향 프로그래밍을 공부하며 만들어 본 프로젝트입니다
+작성한 목록들의 순서를 드래그앤드랍을 통해서 순서 변경이 가능하도록 제작해보았습니다`,
+      img: NotePad,
+    },
+    assignment: [
+      '이미지 & 비디오 등록',
+      'Drag and Drop 구현',
+      '노트, 투두리스트 등록',
+    ],
+  },
+  {
+    id: 4,
     title: 'Card Makers',
     description: '명함 제작 웹 어플리케이션',
     skills: [
@@ -101,7 +125,7 @@ export const PROJECT_LIST = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: 'Airmug Pro',
     description: '인터랙션을 활용한 web site',
     skills: ['Javascript', 'Css Animation'],
@@ -126,7 +150,7 @@ export const PROJECT_LIST = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: 'Find Carrot',
     description: '벌레를 피해 당근을 수확하는 게임',
     skills: ['React', 'React Hooks'],
