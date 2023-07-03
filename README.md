@@ -1,7 +1,8 @@
 # Portfolio
 https://feelslikemmmm.github.io/portfolio/
 
-![portfolio](https://github.com/feelslikemmmm/portfolio/assets/67893516/6b040554-adae-4be1-ac15-33c7bf02045c)
+![portfolio](https://github.com/feelslikemmmm/portfolio/assets/67893516/dca31485-0f0a-46bf-bf02-4a64629a3c71)
+
 
 ### Front-end : React
 ### Deploy : Gitgub Pages
