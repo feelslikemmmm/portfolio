@@ -2,7 +2,17 @@ import QuizImage from '@assets/images/experience/quiz.jpg';
 import StoreImage from '@assets/images/experience/store.jpg';
 import BackofficeImage from '@assets/images/experience/backoffice.jpg';
 
-export const ExperienceList = [
+export type ExperienceType = {
+  id: number;
+  title: string;
+  mark?: string;
+  url: string;
+  images: string;
+  description?: string;
+  detail: string[];
+}[];
+
+export const ExperienceList: ExperienceType = [
   {
     id: 1,
     title: 'Development of Quiz Service',
@@ -39,15 +49,4 @@ export const ExperienceList = [
       '기존 백오피스 레거시 코드를 개선한 두번째 버전 백오피스 홈페이지 개발',
     ],
   },
-  // {
-  //   id: 4,
-  //   title: '포크 쇼핑 백오피스 유지 보수',
-  //   url: 'https://quiz.forc.co.kr/',
-  //   images: AdminV2,
-  //   description: [
-  //     '백 오피스내 리뷰 목록 페이지 리뷰 조회 기능 및 리뷰 수정 기능 개발',
-  //     '포인트 목록 페이지 및 포인트 설정 관리 기능 개발',
-  //     '기존 백오피스 레거시 코드를 개선한 두번째 버전 백오피스 홈페이지 개발 진행중',
-  //   ],
-  // },
 ];

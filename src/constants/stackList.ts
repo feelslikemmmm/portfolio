@@ -4,7 +4,17 @@ import REACT from '@assets/images/stack/react-gif.gif';
 import NEXT from '@assets/images/stack/next-png.png';
 import CSS from '@assets/images/stack/css.gif.gif';
 
-export const STACK_LIST = [
+export type StackListType = {
+  id: number;
+  title: string;
+  mark: string;
+  url?: string;
+  images: string;
+  description: string;
+  detail?: string[];
+}[];
+
+export const STACK_LIST: StackListType = [
   {
     id: 1,
     images: JS,
