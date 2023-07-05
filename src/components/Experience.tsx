@@ -1,7 +1,10 @@
-import ExperienceCard from './ExperienceCard';
+import { ExperienceList } from '@constants/experienceList';
 import IndexPageContent from './IndexPageContent';
+import Card from './Card';
 
 const Experience = () => {
+  const TOTAL_SLIDES = ExperienceList.length - 1;
+
   return (
     <IndexPageContent>
       <div className="overflow-visible flex flex-col text-black2">
@@ -27,7 +30,11 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <ExperienceCard />
+      <Card
+        TOTAL_SLIDES={TOTAL_SLIDES}
+        itemList={ExperienceList}
+        width="50.5"
+      />
     </IndexPageContent>
   );
 };
