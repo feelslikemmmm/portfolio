@@ -13,6 +13,7 @@ export const PROJECT_LIST = [
       'React',
       'React-Hooks',
       'React-Query',
+      'Context Api',
       'Tailwindcss',
       'Firebase Authentication',
       'Firebase RealtimeDatabase',
