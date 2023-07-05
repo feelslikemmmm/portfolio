@@ -27,11 +27,6 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      {/* <Card
-        TOTAL_SLIDES={TOTAL_SLIDES}
-        itemList={ExperienceList}
-        width="50.5"
-      /> */}
       <ExperienceCard />
     </IndexPageContent>
   );

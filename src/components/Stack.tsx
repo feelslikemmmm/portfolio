@@ -1,10 +1,7 @@
-// import { STACK_LIST } from '@constants/stackList';
-// import Card from './Card';
 import IndexPageContent from './IndexPageContent';
 import StackCard from './StackCard';
 
 const Stack = () => {
-  // const TOTAL_SLIDES = STACK_LIST.length - 1;
   return (
     <IndexPageContent>
       <div className="overflow-visible flex flex-col text-black2">
@@ -28,7 +25,6 @@ const Stack = () => {
           </div>
         </div>
       </div>
-      {/* <Card TOTAL_SLIDES={TOTAL_SLIDES} itemList={STACK_LIST} width="33" /> */}
       <StackCard />
     </IndexPageContent>
   );
