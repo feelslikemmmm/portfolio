@@ -1,10 +1,14 @@
 import { useEffect, useRef, useState } from 'react';
 import CarouselBtn from './ui/CarouselBtn';
-import { ExperienceList } from '@constants/experienceList';
+import { ExperienceType } from '@constants/experienceList';
 
-const ExperienceCard = () => {
-  const TOTAL_SLIDES = ExperienceList.length - 1;
-  const DESCTOP_TOTAL = 1;
+interface ExperienceCardProps {
+  experienceList: ExperienceType;
+}
+
+const ExperienceCard = ({ experienceList }: ExperienceCardProps) => {
+  const TOTAL_SLIDES = experienceList.length - 1;
+  const DESCTOP_TOTAL = Math.ceil(experienceList.length / 2) - 1;
   const [currentSlide, setCurrentSlide] = useState(0);
   const slideRef = useRef<HTMLDivElement>(null);
   const innerWidth = window.innerWidth;
@@ -54,7 +58,7 @@ const ExperienceCard = () => {
         className="ml-[-1%] translate-x-[0%] whitespace-nowrap list-none"
         ref={slideRef}
       >
-        {ExperienceList.map((experience) => (
+        {experienceList.map((experience) => (
           <div
             className="visible overflow-hidden inline-block w-[100%] px-[1%] whitespace-nowrap align-top md:w-[50.5%]"
             key={experience.id}
