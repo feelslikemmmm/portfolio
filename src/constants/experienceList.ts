@@ -1,6 +1,11 @@
 import QuizImage from '@assets/images/experience/quiz.jpg';
 import StoreImage from '@assets/images/experience/store.jpg';
 import BackofficeImage from '@assets/images/experience/backoffice.jpg';
+import BigcStoreImage from '@assets/images/experience/bigc_store.jpg';
+import BigcTicketImage from '@assets/images/experience/bigc_ticket.jpg';
+import BigcMyPageImage from '@assets/images/experience/bigc_mypage.jpg';
+import BigcLoginImage from '@assets/images/experience/bigc_login.jpg';
+import BigcWebEtcImage from '@assets/images/experience/bigc_web_etc.jpg';
 
 export type ExperienceType = {
   id: number;
@@ -17,7 +22,7 @@ export const bigcEperienceList: ExperienceType = [
     id: 0,
     title: 'E-commerce Platform Development',
     url: 'https://bigc.im/store',
-    images: BackofficeImage,
+    images: BigcStoreImage,
     detail: [
       `스토어 메인 페이지 구현`,
       ` ∙ 상품 카테고리 구현`,
@@ -35,7 +40,7 @@ export const bigcEperienceList: ExperienceType = [
     id: 1,
     title: 'Offline Ticketing System Development',
     url: 'https://bigc.im',
-    images: BackofficeImage,
+    images: BigcTicketImage,
     detail: [
       `seats.io 라이브러리를 활용해 오프라인 티켓팅 서비스 개발`,
       `티켓팅 ui 구현`,
@@ -50,7 +55,7 @@ export const bigcEperienceList: ExperienceType = [
     id: 2,
     title: 'Development of an Integrated My Page',
     url: 'https://bigc.im',
-    images: StoreImage,
+    images: BigcMyPageImage,
     detail: [
       `쿠폰 관리 페이지 구현`,
       ` ∙ 쿠폰 등록 기능 구현`,
@@ -68,7 +73,7 @@ export const bigcEperienceList: ExperienceType = [
     id: 3,
     title: 'Integrated Login',
     url: 'https://auth.bigc.im',
-    images: QuizImage,
+    images: BigcLoginImage,
     detail: [
       `빅크웹 / 빅크 모먼트 웹, 앱 / 빅크 셀렉트 웹 ,앱 총 5곳에서 개별적으로 존재하던 로그인을 하나의 통합 로그인 시스템으로 통합 개발`,
       `소셜 로그인 및 회원가입 (카카오, 페이스북, 라인, 애플, 구글) 연동`,
@@ -80,7 +85,7 @@ export const bigcEperienceList: ExperienceType = [
     id: 4,
     title: 'BIGC Web Etc',
     url: 'https://bigc.im',
-    images: QuizImage,
+    images: BigcWebEtcImage,
     detail: [
       `빅크 웹 레이아웃 ui 구현`,
       `팬클럽 인증 기능 구현`,
