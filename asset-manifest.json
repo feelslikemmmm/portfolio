@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.59dcb943.css",
-    "main.js": "/portfolio/static/js/main.5b801527.js",
+    "main.css": "/portfolio/static/css/main.4a24d076.css",
+    "main.js": "/portfolio/static/js/main.1cbabb89.js",
     "static/media/airmug-pro.gif": "/portfolio/static/media/airmug-pro.371d04296cde9b3a0f42.gif",
     "static/media/portfolio.gif": "/portfolio/static/media/portfolio.0657d43f64a4c423af98.gif",
     "static/media/js-gif.gif": "/portfolio/static/media/js-gif.129d3dc0b54dd09f749e.gif",
@@ -15,14 +15,19 @@
     "static/media/card-makers.gif": "/portfolio/static/media/card-makers.becb211c7650dccf29cc.gif",
     "static/media/store.jpg": "/portfolio/static/media/store.6b875f4bd1125db3674e.jpg",
     "static/media/quiz.jpg": "/portfolio/static/media/quiz.962a6a7b43111d48c979.jpg",
+    "static/media/bigc_login.jpg": "/portfolio/static/media/bigc_login.4a10e3469d40d9858292.jpg",
+    "static/media/bigc_web_etc.jpg": "/portfolio/static/media/bigc_web_etc.f59b8eeaeb56cd31082e.jpg",
+    "static/media/bigc_ticket.jpg": "/portfolio/static/media/bigc_ticket.8dd6d0635412859ff5ad.jpg",
+    "static/media/bigc_mypage.jpg": "/portfolio/static/media/bigc_mypage.2894d2b1011932a1da0a.jpg",
+    "static/media/bigc_store.jpg": "/portfolio/static/media/bigc_store.2d7ec07743abe97f4cfc.jpg",
     "static/media/backoffice.jpg": "/portfolio/static/media/backoffice.eb98bc78016dfa0ff107.jpg",
     "static/media/banner.png": "/portfolio/static/media/banner.96232728ef41e94edd64.png",
     "index.html": "/portfolio/index.html",
-    "main.59dcb943.css.map": "/portfolio/static/css/main.59dcb943.css.map",
-    "main.5b801527.js.map": "/portfolio/static/js/main.5b801527.js.map"
+    "main.4a24d076.css.map": "/portfolio/static/css/main.4a24d076.css.map",
+    "main.1cbabb89.js.map": "/portfolio/static/js/main.1cbabb89.js.map"
   },
   "entrypoints": [
-    "static/css/main.59dcb943.css",
-    "static/js/main.5b801527.js"
+    "static/css/main.4a24d076.css",
+    "static/js/main.1cbabb89.js"
   ]
 }
